@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+Theme Name: USA Investments Pro
+Author: Kostya Tereshchuk
+Author URI: https://wordpress.org/support/users/kostyatereshchuk/
+Version: 1.0
+Text Domain: usainv
+*/
+
+@media only screen and (min-width: 601px) {
+    body.admin-bar .navbar-fixed-top { top: 32px; }
+}
+@media only screen and (max-width: 600px) {
+    body.admin-bar #wpadminbar { display: none; }
+}
+
+.site-main { margin: 40px 0 20px; }
+
+table.table-bordered th { background: rgba(224, 224, 240, .2); }
+
+.product_meta { display: none; }
+.related.products { display: none; }
+.navigation.post-navigation { clear: both; padding: 40px 0 20px; }
+.navigation.post-navigation .nav-previous { float: left; }
+.navigation.post-navigation .nav-previous::before { content: "↤ "; }
+.navigation.post-navigation .nav-next { float: right; }
+.navigation.post-navigation .nav-next::after { content: " ↦"; }
