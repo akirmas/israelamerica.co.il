@@ -23,6 +23,12 @@ class IEO_CRM_Helper {
         $phone = $_POST['form_fields']['field_2'];
 
         //Here maybe validation of fields
+        if(!self::validateFormFields($email, $fullName, $phone)){
+
+            Logger::logDataToFile('notValidFormFieldsSupplied', print_r($_POST, 1));
+            return;
+
+        }
 
         $crmHookUrl = self::$crmHookUrl;
         $crmMethod = 'crm.lead.add';
@@ -79,6 +85,22 @@ class IEO_CRM_Helper {
 
         }
 
+
+    }
+
+    public static function validateFormFields($email, $fullName, $phone)
+    {
+
+        if(strlen($email) > 200)
+            return false;
+
+        if(strlen($fullName) > 200)
+            return false;
+
+        if(strlen($phone) > 50)
+            return false;
+
+        return true;
 
     }
 
