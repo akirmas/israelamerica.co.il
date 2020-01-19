@@ -1,0 +1,45 @@
+[20.01.19 / 09:45:15] : Array
+(
+    [post_id] => 688
+    [form_id] => 348b45b
+    [form_fields] => Array
+        (
+            [field_2] => 0505556635
+            [email] => banderlog17@gmail.com
+            [field_1] => AndriiTEST ShykovTEST
+        )
+
+    [action] => elementor_pro_forms_send_form
+    [referrer] => https://israelamerica.co.il.local/contact/
+)
+
+[20.01.19 / 09:46:56] : Array
+(
+    [post_id] => 688
+    [form_id] => 348b45b
+    [form_fields] => Array
+        (
+            [field_2] => 0505556635
+            [email] => banderlog17@gmail.com
+            [field_1] => AndriiTEST ShykovTEST
+        )
+
+    [action] => elementor_pro_forms_send_form
+    [referrer] => https://israelamerica.co.il.local/contact/
+)
+
+[20.01.19 / 10:00:51] : Array
+(
+    [post_id] => 688
+    [form_id] => 348b45b
+    [form_fields] => Array
+        (
+            [field_2] => 0505556635
+            [email] => banderlog17@gmail.com
+            [field_1] => AndriiTEST ShykovTEST
+        )
+
+    [action] => elementor_pro_forms_send_form
+    [referrer] => https://israelamerica.co.il.local/contact/
+)
+
