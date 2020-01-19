@@ -68,15 +68,14 @@ class IEO_CRM_Helper {
 
             }
 
-            /*
             $dbLogInsertData = [];
             $dbLogInsertData['email'] = $email;
             $dbLogInsertData['fullName'] = $fullName;
             $dbLogInsertData['phone'] = $phone;
             $dbLogInsertData['leadId'] = $updateResultLeadId;
             $dbLogInsertData['encodedPostData'] = json_encode($_POST);
+
             self::storeCRMUpdateRequestToDbLog($dbLogInsertData);
-            */
 
         }
 
@@ -119,8 +118,10 @@ class IEO_CRM_Helper {
         $insertId = $wpdb->insert_id;
         Logger::logDataToFile('wpdbInsertIdPaymentLog', $insertId);
 
-        if(empty($insertId))
-            throw new \Exception('Empty insert ID into payment log for email: ' . $email);
+        if(empty($insertId)){
+            //throw new \Exception('Empty insert ID into payment log for email: ' . $email);
+            Logger::logDataToFile('wpdbInsertIdIsEmpty', $encodedPostData);
+        }
 
 
     }
