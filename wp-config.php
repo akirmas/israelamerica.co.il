@@ -83,6 +83,7 @@ define('FS_METHOD', 'direct');
 define('WP_DEBUG', false);
 define('WP_HOME','https://israelamerica.co.il/' );
 define('WP_SITEURL','https://israelamerica.co.il/' );
+define('CURRENT_WEBSITE_DIR', '/var/www/israelamerica.co.il');
 
 /* That's all, stop editing! Happy blogging. */
 
