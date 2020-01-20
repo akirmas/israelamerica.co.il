@@ -19,8 +19,19 @@ class IEO_CRM_Helper {
             return;
 
         $email = $_POST['form_fields']['email'];
-        $fullName = $_POST['form_fields']['field_1'];
-        $phone = $_POST['form_fields']['field_2'];
+
+        if( ($_POST['post_id'] == 688)
+            && ($_POST['referrer'] === 'https://' . CURRENT_WEBSITE_HOST . '/contact/' ) ){
+
+            $fullName = $_POST['form_fields']['field_2'];
+            $phone = $_POST['form_fields']['field_1'];
+
+        } else {
+
+            $fullName = $_POST['form_fields']['field_1'];
+            $phone = $_POST['form_fields']['field_2'];
+
+        }
 
         //Here maybe validation of fields
         if(!self::validateFormFields($email, $fullName, $phone)){
