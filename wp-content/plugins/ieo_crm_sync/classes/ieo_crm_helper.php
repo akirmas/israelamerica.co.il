@@ -42,6 +42,8 @@ class IEO_CRM_Helper {
                 "OPENED" => "Y",
                 "PHONE" => array(array("VALUE" => $phone, "VALUE_TYPE" => "WORK" )),
                 "EMAIL" => array(array("VALUE" => $email, "VALUE_TYPE" => "WORK" )),
+                'NAME' => $fullName,
+                'SOURCE_ID' => $_SERVER['HTTP_REFERER'],
             ),
             'params' => array("REGISTER_SONET_EVENT" => "N")
         );
