@@ -1,2 +1,5 @@
-./wp-snapshots/
-./wp-content/ai1wm-backups/
+wp-snapshots/
+wp-content/ai1wm-backups/
+wp-includes/
+.wp-content/plugins/
+!wp-content/plugins/ieo_crm_sync_
