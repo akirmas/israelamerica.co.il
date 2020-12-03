@@ -1,7 +1,0 @@
-wp-snapshots/
-wp-content/ai1wm-backups/
-
-.wp-content/plugins/
-!wp-content/plugins/ieo_crm_sync
-wp-content/plugins/ieo_crm_sync/logs
-_
