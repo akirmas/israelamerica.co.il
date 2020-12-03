@@ -1,0 +1,1118 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-18 18:55:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#: src/StoreApi/Schemas/ProductSchema.php:194
+msgid "Category name"
+msgstr "Kategorinavn"
+
+#: src/StoreApi/Schemas/ProductSchema.php:293
+msgid "The term name."
+msgstr "Term-navnet."
+
+#: src/StoreApi/Schemas/ProductSchema.php:299
+msgid "The term slug."
+msgstr "Term-identifikatoren."
+
+#: src/StoreApi/Schemas/ProductSchema.php:337
+msgid "The assigned attribute."
+msgstr "Det tilordnede attributtet."
+
+#: src/StoreApi/Schemas/ProductSchema.php:324
+msgid "List of variation attributes."
+msgstr "Liste over variasjonsattributter."
+
+#: src/StoreApi/Schemas/ProductSchema.php:409
+msgid "Add to cart URL."
+msgstr "URL for Legg i handlekurven."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:45
+msgid "The attribute taxonomy name."
+msgstr "Taksonominavnet for attributtet."
+
+#: src/StoreApi/Schemas/ProductSchema.php:262
+#: src/StoreApi/Schemas/ProductSchema.php:331
+msgid "The attribute name."
+msgstr "Attributtnavnet."
+
+#: src/StoreApi/Schemas/ProductSchema.php:240
+msgid "Tag link"
+msgstr "Stikkordlenke"
+
+#: src/StoreApi/Schemas/ProductSchema.php:206
+msgid "Category link"
+msgstr "Kategorilenke"
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:169
+msgid "Taxes applied to this shipping rate using the smallest unit of the currency."
+msgstr "Priser i denne fraktsatsen basert på den minste enheten i valutaen."
+
+#: src/StoreApi/Schemas/ProductSchema.php:181
+msgid "List of categories, if applicable."
+msgstr "Liste over kategorier, hvis aktuelt."
+
+#: src/StoreApi/Schemas/ProductSchema.php:215
+msgid "List of tags, if applicable."
+msgstr "Liste over stikkord, hvis aktuelt."
+
+#: src/Domain/Services/DraftOrders.php:100
+#: src/Domain/Services/DraftOrders.php:124
+msgctxt "Order status"
+msgid "Draft"
+msgstr "Kladd"
+
+#: src/BlockTypes/Checkout.php:281
+msgid "Credit card"
+msgstr "Kredittkort"
+
+#. translators: %s: number of orders
+#: src/Domain/Services/DraftOrders.php:130
+msgid "Drafts <span class=\"count\">(%s)</span>"
+msgid_plural "Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Kladd <span class=\"count\">(%s)</span>"
+msgstr[1] "Kladder <span class=\"count\">(%s)</span>"
+
+#: src/Assets.php:196
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: src/Payments/Integrations/Stripe.php:235
+msgid "Diners"
+msgstr "Diners"
+
+#: src/Payments/Integrations/Stripe.php:231
+msgid "JCB"
+msgstr "JCB"
+
+#: src/Payments/Integrations/Stripe.php:227
+msgid "Discover"
+msgstr "Oppdag"
+
+#: src/Payments/Integrations/Stripe.php:220
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: src/Payments/Integrations/Stripe.php:216
+msgid "American Express"
+msgstr "American Express"
+
+#: src/Payments/Integrations/Stripe.php:212
+msgid "Visa"
+msgstr "Visa"
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:93
+msgid "Shipping address."
+msgstr "Leveringsadresse."
+
+#: src/StoreApi/Schemas/ErrorSchema.php:39
+msgid "Error message"
+msgstr "Feilmelding"
+
+#: src/StoreApi/Schemas/ErrorSchema.php:33
+msgid "Error code"
+msgstr "Feilkode"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:86 build/checkout.js:1
+#: build/checkout-frontend.js:14
+#: assets/js/blocks/cart-checkout/checkout/edit.js:129
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:80
+msgid "Email"
+msgstr "E-post"
+
+#: src/StoreApi/Schemas/OrderCouponSchema.php:31
+#: src/StoreApi/Schemas/CartCouponSchema.php:35
+msgid "The coupons unique code."
+msgstr "Kupongens unike kode."
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:60
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:62 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:94
+msgid "City"
+msgstr "By"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:55
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:57 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/blocks/cart-checkout/checkout/edit.js:117
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:71
+msgid "Apartment, suite, etc."
+msgstr "Leilighet nr. e.l."
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:50
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:52 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:59
+msgid "Address"
+msgstr "Adresse"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:45
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:47 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/blocks/cart-checkout/checkout/edit.js:93
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:47
+msgid "Company"
+msgstr "Firma"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:40
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:42 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:35
+msgid "Last name"
+msgstr "Etternavn"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:35
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:37 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:23
+msgid "First name"
+msgstr "Fornavn"
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:57
+msgid "Customer last name."
+msgstr "Kundens etternavn."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:49
+msgid "Customer first name."
+msgstr "Kundens fornavn."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/ReserveStock.php:90
+#: src/StoreApi/Utilities/CartController.php:284
+msgid "&quot;%s&quot; is out of stock and cannot be purchased."
+msgstr "&quot;%s&quot; er ikke på langer og kan ikke kjøpes."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:87
+msgid "Billing address."
+msgstr "Fakturaadresse."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:246
+msgctxt "shipping packages"
+msgid "Shipping"
+msgstr "Levering"
+
+#. translators: %d: shipping package number
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:243
+msgctxt "shipping packages"
+msgid "Shipping %d"
+msgstr "Leveringspakke %d"
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:103
+msgid "Name of the item."
+msgstr "Navn på elementet."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:268
+msgid "Line total tax."
+msgstr "Linje for total avgift."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:256
+msgid "Line subtotal tax."
+msgstr "Linje for delsum-avgift."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:45
+msgid "Shipping destination address."
+msgstr "Leveringsadresse."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:39
+msgid "Name of the package."
+msgstr "Navn på pakken."
+
+#: src/StoreApi/Schemas/CartSchema.php:239
+msgid "The amount of tax charged."
+msgstr "Avgiftsbeløp innkrevd."
+
+#: src/StoreApi/Schemas/CartSchema.php:233
+msgid "The name of the tax."
+msgstr "Navn på avgiften."
+
+#: src/StoreApi/Schemas/ProductSchema.php:385
+#: src/StoreApi/Schemas/CartItemSchema.php:67
+msgid "The maximum quantity than can be added to the cart at once."
+msgstr "Maksimalt antall som kan legges til i handlekurven på én gang."
+
+#: src/StoreApi/Schemas/CartSchema.php:183
+msgid "Total tax on fees."
+msgstr "Avgifter totalt på gebyrer."
+
+#: src/StoreApi/Schemas/CartSchema.php:213
+msgid "Total price the customer will pay."
+msgstr "Total pris kunden skal betale."
+
+#: src/StoreApi/Schemas/CartSchema.php:207
+msgid "Total tax on shipping."
+msgstr "Total avgift på frakt."
+
+#: src/StoreApi/Schemas/CartSchema.php:201
+msgid "Total price of shipping."
+msgstr "Totalpris for frakt."
+
+#: src/StoreApi/Schemas/CartSchema.php:177
+msgid "Total price of any applied fees."
+msgstr "Totalpris på alle gebyrer."
+
+#: src/StoreApi/Schemas/CartSchema.php:171
+msgid "Total tax on items in the cart."
+msgstr "Total avgift på elementer i handlekurven."
+
+#: src/StoreApi/Schemas/CartSchema.php:165
+msgid "Total price of items in the cart."
+msgstr "Total pris på elementer i handlekurven."
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:70
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:72 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:115
+msgid "Postal code"
+msgstr "Postnummer"
+
+#. Translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:538
+msgid "Coupon code \"%s\" has already been applied."
+msgstr "Kupongkode \"%s\" er allerede brukt."
+
+#. Translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:526
+msgid "\"%s\" is an invalid coupon code."
+msgstr "\"%s\" er en ugyldig kupongkode."
+
+#. translators: 1: quantity in stock, 2: product name
+#: src/StoreApi/Utilities/CartController.php:300
+msgid "There is only %1$s unit of &quot;%2$s&quot; in stock."
+msgid_plural "There are only %1$s units of &quot;%2$s&quot; in stock."
+msgstr[0] "Det er bare %1$s stk. av &quot;%2$s&quot; på lager"
+msgstr[1] "Det er bare %1$s stk. av &quot;%2$s&quot; på lager"
+
+#: src/StoreApi/Utilities/OrderController.php:30
+msgid "Cannot create order from empty cart."
+msgstr "Kan ikke opprette ordre fra tom handlekurv."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:272
+msgid "There are too many &quot;%s&quot; in the cart. Only 1 can be purchased."
+msgstr "Det er for mange &quot;%s&quot; i handlekurven. Bare 1 kan kjøpes."
+
+#: src/StoreApi/Schemas/CartSchema.php:93
+msgid "List of applied cart coupons."
+msgstr "Liste over brukte kuponger."
+
+#. translators: Placeholders are class and method names
+#: src/StoreApi/Schemas/BillingAddressSchema.php:123
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:112
+msgid "%1$s requires an instance of %2$s or %3$s for the address"
+msgstr "%1$s krever en forekomst av %2$s eller %3$s for addressen"
+
+#: src/StoreApi/Routes/Checkout.php:430
+msgid "No payment method provided."
+msgstr "Ingen betalingsmetode oppgitt."
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:58
+#: src/StoreApi/Routes/CartCoupons.php:92
+#: src/StoreApi/Routes/CartApplyCoupon.php:58
+msgid "Coupons are disabled."
+msgstr "Kuponger er slått av."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:109
+msgid "Quantity of the item in the current package."
+msgstr "Antall av dette produktet i denne pakken."
+
+#: src/StoreApi/Routes/CartUpdateItem.php:44
+msgid "New quantity of the item in the cart."
+msgstr "Nytt antall av varen i handlekurven."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:121
+#: src/StoreApi/Routes/CartSelectShippingRate.php:64
+msgid "Shipping is disabled."
+msgstr "Levering er ikke tilgjengelig."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:84
+msgid "Sort by term property."
+msgstr "Sorter etter term-egenskap."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:76
+msgid "Sort ascending or descending."
+msgstr "Sortere stigende eller synkende."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:96
+msgid "If true, empty terms will not be returned."
+msgstr "Hvis sann, returneres ikke tomme termer."
+
+#: src/StoreApi/Utilities/CartController.php:126
+msgid "Cart item is invalid."
+msgstr "Handlekurvelementet er ugyldig."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:705
+msgid "&quot;%s&quot; is not available for purchase."
+msgstr "&quot;%s&quot; er ikke tilgjengelig for kjøp."
+
+#. translators: %1$s coupon code, %2$s reason.
+#: src/StoreApi/Utilities/CartController.php:609
+msgid "The \"%1$s\" coupon has been removed from your cart: %2$s"
+msgstr "Kupongen \"%1$s\" er fjernet fra handlekurven: %2$s"
+
+#. translators: %s: coupon code
+#: src/StoreApi/Utilities/CartController.php:569
+msgid "\"%s\" has already been applied and cannot be used in conjunction with other coupons."
+msgstr "Kupongkoden \"%s\" har allerede blitt benyttet, og kan ikke brukes sammen med andre kuponger."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/ReserveStock.php:185
+msgid "Not enough units of %s are available in stock to fulfil this order."
+msgstr "Ikke nok enheter av %s er tilgjengelig på lager for å oppfylle denne bestillingen."
+
+#. Translators: %s Coupon codes.
+#: src/StoreApi/Utilities/OrderController.php:151
+msgid "Invalid coupons were removed from the cart: \"%s\""
+msgstr "Ugyldige kuponger ble fjernet fra handlekurven: \"%s\""
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:67
+msgid "Invalid coupon code."
+msgstr "Ugyldig kupongkode."
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:40
+#: src/StoreApi/Routes/CartCouponsByCode.php:37
+#: src/StoreApi/Routes/CartApplyCoupon.php:40
+msgid "Unique identifier for the coupon within the cart."
+msgstr "Unik identifikator for kupongen i handlekurven."
+
+#: src/StoreApi/Routes/CartRemoveItem.php:62
+msgid "Cart item no longer exists or is invalid."
+msgstr "Handlekurvelementet finnes ikke lenger eller er ugyldig."
+
+#: src/StoreApi/Routes/ProductCategoriesById.php:66
+msgid "Invalid category ID."
+msgstr "Ugyldig kategori-ID."
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:71
+msgid "Coupon cannot be removed because it is not already applied to the cart."
+msgstr "Kupongen kan ikke fjernes fordi den ikke allerede er brukt på handlekurven."
+
+#: src/StoreApi/Routes/Products.php:124
+#: src/StoreApi/Routes/AbstractTermsRoute.php:40
+#: src/StoreApi/Routes/ProductReviews.php:173
+msgid "Maximum number of items to be returned in result set. Defaults to no limit if left blank."
+msgstr "Maksimalt antall varer som skal returneres i resultatsett. Ingen grense hvis tomt."
+
+#: src/StoreApi/Routes/ProductReviews.php:212
+msgid "Limit result set to reviews from specific category IDs."
+msgstr "Avgrens resultat til anmeldelser fra bestemte kategori-IDer."
+
+#: src/StoreApi/Routes/CartRemoveItem.php:40
+msgid "Unique identifier (key) for the cart item."
+msgstr "Unik identifikator (nøkkel) for handlekurvelementet."
+
+#: src/StoreApi/Routes/CartSelectShippingRate.php:40
+msgid "The ID of the package being shipped."
+msgstr "ID-en til pakken som sendes."
+
+#: src/StoreApi/Routes/CartSelectShippingRate.php:45
+msgid "The chosen rate ID for the package."
+msgstr "Den valgte sats-ID-en for pakken."
+
+#: src/StoreApi/Routes/CartSelectShippingRate.php:68
+msgid "Invalid Package ID."
+msgstr "Ugyldig pakke-ID."
+
+#: src/StoreApi/Routes/CartCouponsByCode.php:69
+#: src/StoreApi/Routes/CartCouponsByCode.php:86
+msgid "Coupon does not exist in the cart."
+msgstr "Kupongen finnes ikke i handlekurven."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:79
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:63
+msgid "City of the address being shipped to."
+msgstr "Poststed for adressen som sendes til."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:93
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:75
+msgid "Zip or Postcode of the address being shipped to."
+msgstr "Zip eller postnummer for adressen som sendes til."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:100
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:81
+msgid "ISO code for the country of the address being shipped to."
+msgstr "ISO-kode for landet for adressen som sendes til."
+
+#. translators: 1: valid country codes
+#: src/StoreApi/Routes/CartUpdateShipping.php:164
+msgid "No destination country code was given. Please provide one of the following: %s"
+msgstr "Ingen landskode for destinasjon ble gitt. Oppgi ett av følgende: %s"
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:86
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:69
+msgid "ISO code, or name, for the state, province, or district of the address being shipped to."
+msgstr "ISO-kode, eller navn, for staten, provinsen eller distriktet til adressen som sendes til."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:65
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:51
+msgid "First line of the address being shipped to."
+msgstr "Første linje i adressen som sendes til."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:72
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:57
+msgid "Second line of the address being shipped to."
+msgstr "Andre linje i adressen som sendes til."
+
+#: src/StoreApi/Routes/CartUpdateItem.php:40
+msgid "Unique identifier (key) for the cart item to update."
+msgstr "Unik identifikator (nøkkel) for handlekurvelementet som skal oppdateres."
+
+#: src/StoreApi/Routes/Checkout.php:466
+msgid "This payment gateway is not available."
+msgstr "Denne betalingsløsningen er ikke tilgjengelig."
+
+#: src/StoreApi/Routes/Checkout.php:156
+msgid "This session has no orders pending payment."
+msgstr "Denne økten har ingen bestillinger som venter på betaling."
+
+#: src/StoreApi/Routes/Checkout.php:80
+msgid "Data to pass through to the payment method when processing payment."
+msgstr "Data som skal overføres til betalingsmåten ved behandling av betaling."
+
+#: src/StoreApi/Routes/Checkout.php:405
+msgid "Invalid payment result received from payment method."
+msgstr "Ugyldig betalingsresultat mottatt fra betalingsmåte."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:213
+msgid "Decimal precision of the returned prices."
+msgstr "Antall desimaler i prisene."
+
+#. translators: %s number of products in cart.
+#: src/BlockTypes/ProductCategories.php:357
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d produkt"
+msgstr[1] "%d produkter"
+
+#: src/BlockTypes/AbstractProductGrid.php:432
+#: build/atomic-block-components/sale-badge-frontend.js:1
+#: build/atomic-block-components/image-frontend.js:1
+#: build/atomic-block-components/sale-badge.js:1 build/all-products.js:1
+#: assets/js/atomic/blocks/product-elements/sale-badge/block.js:53
+msgid "Product on sale"
+msgstr "Produkter på salg"
+
+#: src/BlockTypes/ProductCategories.php:202
+msgid "List of categories with their product counts"
+msgstr "Oversikt over kategorier med produktantall"
+
+#: src/StoreApi/Routes/ProductCollectionData.php:164
+msgid "Taxonomy name."
+msgstr "Navn på taksonomi."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:170
+msgid "Query type being performed which may affect counts. Valid values include \"and\" and \"or\"."
+msgstr "Forespørselstype som utføres, noe som kan påvirke tellingen. Gyldige verdier inkluderer \"og\" og \"eller\"."
+
+#: src/StoreApi/Routes/Products.php:233
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Avgrens resultatet til alle produkter untatt de med en bestemt foreldre-ID."
+
+#: src/StoreApi/Routes/Products.php:258
+msgid "Limit result set to featured products."
+msgstr "Avgrens resultat til fremhevede produkter."
+
+#: src/StoreApi/Routes/Products.php:265
+msgid "Limit result set to products assigned a specific category ID."
+msgstr "Avgrens resultatet til produkter som tilhører en bestemt kategori-ID."
+
+#: src/StoreApi/Routes/Products.php:281
+msgid "Limit result set to products assigned a specific tag ID."
+msgstr "Avgrens resultat til produkter tilknyttet en bestemt stikkord-ID."
+
+#: src/StoreApi/Routes/Products.php:243
+msgid "Limit result set to products assigned a specific type."
+msgstr "Begrens resultat til produkter av en bestemt type."
+
+#: src/StoreApi/Routes/Products.php:297
+msgid "Limit result set to products on sale."
+msgstr "Avgrens resultat til produkter på salg."
+
+#: src/StoreApi/Routes/Products.php:251
+msgid "Limit result set to products with specific SKU(s). Use commas to separate."
+msgstr "Begrens resultatet til produkter med spesifikke varenumre. Bruk komma for å skille dem."
+
+#: src/StoreApi/Routes/Products.php:318
+msgid "Limit result set to products with specified stock status."
+msgstr "Avgrens resultat til produkter med en bestemt lagerstatus."
+
+#: src/StoreApi/Routes/Products.php:223
+msgid "Limit result set to those of particular parent IDs."
+msgstr "Avgrens resultatet til de fra bestemte forelder-ID'er."
+
+#: src/BlockTypes/AbstractProductGrid.php:431
+#: build/atomic-block-components/sale-badge-frontend.js:1
+#: build/atomic-block-components/image-frontend.js:1
+#: build/atomic-block-components/sale-badge.js:1 build/all-products.js:1
+#: assets/js/atomic/blocks/product-elements/sale-badge/block.js:52
+msgid "Sale"
+msgstr "Salg"
+
+#: src/StoreApi/Schemas/ProductSchema.php:137
+#: src/StoreApi/Schemas/ProductSchema.php:143
+#: src/StoreApi/Schemas/CartItemSchema.php:193
+#: src/StoreApi/Schemas/CartItemSchema.php:199
+msgid "Price amount."
+msgstr "Prisbeløp."
+
+#: src/StoreApi/Schemas/ProductSchema.php:131
+#: src/StoreApi/Schemas/CartItemSchema.php:187
+msgid "Price range, if applicable."
+msgstr "Prisintervall, om aktuelt."
+
+#: src/StoreApi/Schemas/ProductSchema.php:125
+#: src/StoreApi/Schemas/CartItemSchema.php:181
+#: src/StoreApi/Schemas/CartItemSchema.php:231
+msgid "Sale product price, if applicable."
+msgstr "Utsalgspris for produktet, om aktuelt."
+
+#: src/StoreApi/Utilities/CartController.php:837
+msgid "No matching variation found."
+msgstr "Ingen passende variant funnet."
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:812
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s er et påkrevet felt"
+msgstr[1] "%s er påkrevde felter"
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:70
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:93
+msgid "Number of products."
+msgstr "Antall produkter."
+
+#: src/StoreApi/Schemas/ProductSchema.php:403
+msgid "Button description."
+msgstr "Knappebeskrivelse."
+
+#: src/StoreApi/Schemas/ProductSchema.php:397
+msgid "Button text."
+msgstr "Knappetekst."
+
+#: src/StoreApi/Schemas/ProductSchema.php:391
+msgid "Add to cart button parameters."
+msgstr "Parametre for Legg til i handlekurven-knapp."
+
+#: src/StoreApi/Schemas/ProductSchema.php:361
+msgid "Is the product in stock?"
+msgstr "Er produktet på lager?"
+
+#: src/StoreApi/Schemas/ProductSchema.php:355
+msgid "Is the product purchasable?"
+msgstr "Er produktet kjøpbart?"
+
+#: src/StoreApi/Utilities/CartController.php:665
+#: src/StoreApi/Utilities/CartController.php:914
+msgid "This product cannot be added to the cart."
+msgstr "Dette produktet kan ikke legges i handlekurven."
+
+#: src/StoreApi/Routes/ProductsById.php:66
+msgid "Invalid product ID."
+msgstr "Ugyldig produkt-ID."
+
+#: src/StoreApi/Utilities/CartController.php:389
+msgid "Unable to retrieve cart."
+msgstr "Ikke i stand til å hente handlekurv."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:87
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/blocks/products/edit.js:51
+#: assets/js/base/components/product-sort-select/index.js:34
+msgid "Average rating"
+msgstr "Gjennomsnittlig vurdering"
+
+#: src/StoreApi/Schemas/ProductSchema.php:94
+msgid "Is the product on sale?"
+msgstr "Er produktet på utsalg?"
+
+#: src/StoreApi/Schemas/CartItemSchema.php:91
+msgid "Stock keeping unit, if applicable."
+msgstr "Lagerstyringenhet, om aktuelt."
+
+#: src/StoreApi/Schemas/CartSchema.php:123
+msgid "List of cart items."
+msgstr "Oversikt over handlekurv-elementer."
+
+#: src/StoreApi/Schemas/CartSchema.php:133
+msgid "Number of items in the cart."
+msgstr "Antall elementer i handlekurven."
+
+#: src/StoreApi/Routes/ProductAttributesById.php:66
+msgid "Invalid attribute ID."
+msgstr "Ugyldig attributt-ID."
+
+#: src/StoreApi/Routes/ProductAttributeTerms.php:60
+msgid "Attribute does not exist."
+msgstr "Attributtet finnes ikke."
+
+#: src/StoreApi/Routes/ProductAttributeTerms.php:35
+msgid "Unique identifier for the attribute."
+msgstr "Unik identifikator for attributtet."
+
+#: src/StoreApi/Routes/CartItemsByKey.php:76
+#: src/StoreApi/Routes/CartItemsByKey.php:116
+#: src/StoreApi/Utilities/CartController.php:120
+msgid "Cart item does not exist."
+msgstr "Handlekurv-elementet finnes ikke."
+
+#: src/StoreApi/Routes/CartItemsByKey.php:37
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:97
+#: src/StoreApi/Schemas/CartItemSchema.php:49
+msgid "Unique identifier for the item within the cart."
+msgstr "Unik identifikator for elementet i handlekurven."
+
+#: woocommerce-gutenberg-products-block.php:58
+msgid "WooCommerce Blocks requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+msgstr "WooCommerce Blocks krever en nyere versjon av WordPress og er satt på vent. Vennligst oppdater WordPress for å fortsette å ha glede av WooCommerce Blocks."
+
+#: src/StoreApi/Routes/CartAddItem.php:68
+#: src/StoreApi/Schemas/CartItemSchema.php:152
+msgid "Variation attribute value."
+msgstr "Verdi for variant-attributt."
+
+#: src/StoreApi/Routes/CartAddItem.php:63
+#: src/StoreApi/Schemas/CartItemSchema.php:146
+msgid "Variation attribute name."
+msgstr "Navn på variant-attributt."
+
+#: src/StoreApi/Routes/CartAddItem.php:56
+#: src/StoreApi/Schemas/CartItemSchema.php:138
+msgid "Chosen attributes (for variations)."
+msgstr "Valgte attributter (for varianter)."
+
+#: src/StoreApi/Routes/CartAddItem.php:40
+#: src/StoreApi/Schemas/CartItemSchema.php:55
+msgid "The cart item product or variation ID."
+msgstr "Produkt- eller variant-ID for handlekurv-element."
+
+#: src/StoreApi/Schemas/CartSchema.php:139
+msgid "Total weight (in grams) of all products in the cart."
+msgstr "Total vekt (i gram) av alle produkter i handlekurven."
+
+#: src/StoreApi/Schemas/CartSchema.php:151
+msgid "True if the cart needs shipping. False for carts with only digital goods or stores with no shipping methods set-up."
+msgstr "Sann om handlekurven trenger frakt. Usann for handlekurver med bare digitale varer eller butikker uten oppsatte fraktmetoder."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:51
+msgid "Attribute type."
+msgstr "Attributt-type."
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:812
+msgid "Missing variation data for variable product."
+msgstr "Mangler variantdata for variabelt produkt."
+
+#. translators: %1$s: Attribute name, %2$s: Allowed values.
+#: src/StoreApi/Utilities/CartController.php:797
+msgid "Invalid value posted for %1$s. Allowed values: %2$s"
+msgstr "Ugyldig verdi publisert for %1$s. Tillatte verdier: %2$s"
+
+#: src/StoreApi/Routes/CartAddItem.php:91 src/StoreApi/Routes/CartItems.php:90
+msgid "Cannot create an existing cart item."
+msgstr "Kan ikke opprette et eksisterende handlekurv-element."
+
+#: src/StoreApi/Routes/Products.php:380
+msgid "Limit result set to products with a certain average rating."
+msgstr "Begrense resultatsettet til produkter med bestemt gjennomsnittlig vurdering."
+
+#: src/StoreApi/Routes/Products.php:363
+msgid "The logical relationship between attributes when filtering across multiple at once."
+msgstr "Det logiske forholdet mellom attributter ved filtrering på tvers av flere samtidig."
+
+#: src/StoreApi/Routes/Products.php:332
+msgid "Attribute taxonomy name."
+msgstr "Taksonominavn for attributt."
+
+#: src/StoreApi/Routes/Products.php:326
+msgid "Limit result set to products with selected global attributes."
+msgstr "Begrense resutatsettet til produkter med valgte globale attributter."
+
+#: src/StoreApi/Routes/Products.php:178
+#: src/StoreApi/Routes/AbstractTermsRoute.php:66
+msgid "Limit result set to specific ids."
+msgstr "Begrense resultatsettet til bestemte IDer."
+
+#: src/StoreApi/Routes/Products.php:168
+#: src/StoreApi/Routes/AbstractTermsRoute.php:56
+msgid "Ensure result set excludes specific IDs."
+msgstr "Sørg for at resultatsettet ekskluderer bestemte IDer."
+
+#: src/StoreApi/Routes/Products.php:115
+#: src/StoreApi/Routes/AbstractTermsRoute.php:31
+#: src/StoreApi/Routes/ProductReviews.php:164
+msgid "Current page of the collection."
+msgstr "Gjeldende side for samlingen."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:42
+msgid "Thumbnail URL."
+msgstr "URL til miniatyrbilde."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:36
+msgid "Full size image URL."
+msgstr "URL til bilde i full størrelse."
+
+#. translators: 1: product name 2: quantity in stock
+#: src/StoreApi/Utilities/CartController.php:178
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "Du kan ikke legge til det antallet av &quot;%1$s&quot; til handlekurven fordi det ikke er nok på lager (%2$s igjen)."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:65
+#: src/StoreApi/Utilities/CartController.php:134
+msgid "You cannot add another \"%s\" to your cart."
+msgstr "Du kan ikke legge til enda en \"%s\" i din handlekurv."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:162
+msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+msgstr "Du kan ikke legge til &quot;%s&quot; i handlekurven fordi produktet er tomt på lager."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:158
+msgid "If requested, calculates attribute term counts for products in the collection."
+msgstr "Hvis etterspurt, beregnes antall attributtvilkår for produkter i samlingen."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:182
+msgid "If true, calculates rating counts for products in the collection."
+msgstr "Hvis sant, beregnes antall rangeringer for produkter i samlingen."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:152
+msgid "If true, calculates the minimum and maximum product prices for the collection."
+msgstr "Hvis sant, beregnes minimum og maksimum produktpriser for samlingen."
+
+#: src/StoreApi/Routes/Products.php:141
+msgid "Limit response to resources created after a given ISO8601 compliant date."
+msgstr "Begrens respons til ressurser utgitt etter en gitt ISO8601 kompatibel dato."
+
+#: src/StoreApi/Routes/Products.php:148
+msgid "Limit response to resources created before a given ISO8601 compliant date."
+msgstr "Begrens svar til ressurser utgitt før en gitt ISO8601 kompatibel dato."
+
+#: src/StoreApi/Routes/Products.php:134
+#: src/StoreApi/Routes/AbstractTermsRoute.php:49
+msgid "Limit results to those matching a string."
+msgstr "Begrens resultater til de som tilsvarer en streng."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:47
+msgid "Max price found in collection of products."
+msgstr "Maks pris funnet i samlingen av produkter."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:41
+msgid "Min price found in collection of products."
+msgstr "Minstepris funnet i samlingen av produkter."
+
+#: src/StoreApi/Routes/CartAddItem.php:48
+#: src/StoreApi/Schemas/CartItemSchema.php:61
+msgid "Quantity of this item in the cart."
+msgstr "Antall produkter i handlekurven."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:79
+msgid "Returns number of products with each average rating."
+msgstr "Returnerer antall produkter med hver gjennomsnittsrangering."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:53
+msgid "Thumbnail sizes for responsive images."
+msgstr "Miniatyrbildestørrelse for responsive bilder."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:48
+msgid "Thumbnail srcset for responsive images."
+msgstr "Miniatyrbilde srcset for responsive bilder."
+
+#: src/StoreApi/Routes/Products.php:155
+msgid "When limiting response using after/before, which date column to compare against."
+msgstr "Når du begrenser svar ved å bruke etter/før, hvilken datakolonne skal det sammenlignes med."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:63
+msgid "If this attribute has term archive pages."
+msgstr "Om dette attributtet har arkivsider for vilkår."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:57
+msgid "How terms in this attribute are sorted by default."
+msgstr "Hvordan vilkår i dette attributtet skal sorteres som standard."
+
+#: src/StoreApi/Schemas/TermSchema.php:63
+msgid "Number of objects (posts of any type) assigned to the term."
+msgstr "Antall objekter (innhold av alle typer) tilordnet vilkåret."
+
+#: src/StoreApi/Schemas/TermSchema.php:51
+msgid "Term description."
+msgstr "Beskrivelse av vilkår."
+
+#: src/StoreApi/Schemas/TermSchema.php:45
+msgid "String based identifier for the term."
+msgstr "Strengbasert identifikator for vilkåret."
+
+#: src/StoreApi/Schemas/TermSchema.php:39
+msgid "Term name."
+msgstr "Navn på vilkår."
+
+#: src/StoreApi/Routes/Products.php:345
+msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
+msgstr "Liste over attributt-identifikator(er). Om en vilkår-ID er oppgitt vil dette bli ignorert."
+
+#: src/StoreApi/Routes/Products.php:337
+msgid "List of attribute term IDs."
+msgstr "Liste over attributt vilkår-IDer."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:64
+msgid "Term ID"
+msgstr "Vilkår-ID"
+
+#: src/StoreApi/Schemas/ProductSchema.php:119
+#: src/StoreApi/Schemas/CartItemSchema.php:175
+#: src/StoreApi/Schemas/CartItemSchema.php:225
+msgid "Regular product price."
+msgstr "Normal pris på produktet."
+
+#: src/StoreApi/Routes/Products.php:203
+#: src/StoreApi/Routes/ProductReviews.php:198
+msgid "Sort collection by object attribute."
+msgstr "Sorter samlingen etter objektets attributt."
+
+#. translators: %d: avatar image size in pixels
+#: src/StoreApi/Schemas/ProductReviewSchema.php:131
+msgid "Avatar URL with image size of %d pixels."
+msgstr "Avatar-URL med en bildestørrelse på %d piksler."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:138
+msgid "Avatar URLs for the object reviewer."
+msgstr "Avatar-URLer for objektets omtaleforfatter."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:89
+msgid "Image of the product that the review belongs to."
+msgstr "Bilde av produktet som omtalen tilhører."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:77
+msgid "Name of the product that the review belongs to."
+msgstr "Navn på produktet som omtalen tilhører."
+
+#: src/StoreApi/Routes/Products.php:188
+#: src/StoreApi/Routes/ProductReviews.php:183
+msgid "Offset the result set by a specific number of items."
+msgstr "Forskyv resultat med et gitt antall elementer."
+
+#: src/StoreApi/Routes/Products.php:195
+#: src/StoreApi/Routes/ProductReviews.php:190
+msgid "Order sort attribute ascending or descending."
+msgstr "Rekkefølge for attributt stigende eller synkende."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:83
+msgid "Permalink of the product that the review belongs to."
+msgstr "Permalenke til produktet som omtalen tilhører."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:111
+msgid "Review rating (0 to 5)."
+msgstr "Omtalerangering (0 til 5)."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:96
+msgid "Reviewer name."
+msgstr "Omtaleforfatterens navn."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:117
+msgid "Shows if the reviewer bought the product or not."
+msgstr "Viser om omtaleforfatteren kjøpte produktet eller ikke."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:102
+msgid "The content of the review."
+msgstr "Omtalens innhold."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:59
+msgid "The date the review was created, in the site's timezone in human-readable format."
+msgstr "Datoen da omtalen ble opprettet, i nettstedets tidssone i lesbar format."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:71
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "Unik identifikator for produktet som omtalen tilhører."
+
+#: src/StoreApi/Routes/ProductReviews.php:219
+msgid "Limit result set to reviews from specific product IDs."
+msgstr "Avgrens resultat til omtaler fra bestemte produkt-ID-er."
+
+#: src/StoreApi/Schemas/ProductCategorySchema.php:60
+msgid "Category URL."
+msgstr "Kategori URL."
+
+#: src/StoreApi/Routes/Products.php:372
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Bestemmer om skjulte eller synlige katalogprodukter vises."
+
+#: src/StoreApi/Routes/Products.php:288
+msgid "Operator to compare product tags."
+msgstr "Operatør for å sammenligne produkt-tagger."
+
+#: src/StoreApi/Schemas/ProductSchema.php:72
+msgid "Product variation attributes, if applicable."
+msgstr "Produktvariasjons-attributter, hvis aktuelt."
+
+#. translators: 1: composer command. 2: plugin directory
+#: woocommerce-gutenberg-products-block.php:122
+#: woocommerce-gutenberg-products-block.php:140
+msgid "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Installasjonen av WooCommerce Blocks utvidelsen er ufullstendig. Kjør %1$s i mappen %2$s."
+
+#: src/BlockTypes/ProductCategories.php:222
+msgid "Go to category"
+msgstr "Gå til kategori"
+
+#: src/BlockTypes/ProductCategories.php:210
+#: src/BlockTypes/ProductCategories.php:214
+msgid "Select a category"
+msgstr "Velg kategori"
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:69
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Antall vilkår i attributt taksonomi."
+
+#: src/StoreApi/Routes/Products.php:353
+msgid "Operator to compare product attribute terms."
+msgstr "Operatør for å sammenligne produktattributt vilkår."
+
+#: src/StoreApi/Routes/Products.php:272
+msgid "Operator to compare product category terms."
+msgstr "Operatør for å sammenligne produktkategori vilkår."
+
+#. Translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:122
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "WooCommerce blokker utviklingsmodus krever at filer skal bygges. Fra utvidelser-katalogen, kan du kjøre %1$s for å installere dependencies, %2$s for å bygge filene eller %3$s å bygge filene og se etter endringer."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "WooCommerce blokker"
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "WooCommerce blokker for Gutenberg redigering."
+
+#: src/StoreApi/Schemas/ProductSchema.php:55
+#: src/StoreApi/Schemas/CartItemSchema.php:73
+msgid "Product name."
+msgstr "Produktnavn."
+
+#: src/StoreApi/Schemas/ProductSchema.php:166
+msgid "Amount of reviews that the product has."
+msgstr "Antall omtaler av dette produktet."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:39
+msgid "Attribute name."
+msgstr "Attributtnavn."
+
+#: src/StoreApi/Schemas/ProductSchema.php:113
+#: src/StoreApi/Schemas/CartItemSchema.php:169
+#: src/StoreApi/Schemas/CartItemSchema.php:219
+msgid "Current product price."
+msgstr "Produktets gjeldende pris."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:31
+msgid "Image ID."
+msgstr "Bilde-ID."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:63
+msgid "Image alternative text."
+msgstr "Alternativ tekst for bildet."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:58
+msgid "Image name."
+msgstr "Bildets navn."
+
+#: src/StoreApi/Schemas/ProductSchema.php:172
+#: src/StoreApi/Schemas/CartItemSchema.php:128
+msgid "List of images."
+msgstr "Liste over bilder."
+
+#: src/StoreApi/Schemas/ProductSchema.php:77
+#: src/StoreApi/Schemas/CartItemSchema.php:121
+msgid "Product URL."
+msgstr "Produkt URL."
+
+#: src/StoreApi/Schemas/ProductSchema.php:160
+msgid "Reviews average rating."
+msgstr "Omtalenes gjennomsnittsrangering."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:65
+msgid "The date the review was created, as GMT."
+msgstr "Dato da omtalen ble opprettet, i GMT."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:53
+msgid "The date the review was created, in the site's timezone."
+msgstr "Dato da omtalen ble opprettet, i nettstedets tidssone."
+
+#: src/StoreApi/Routes/ProductCategoriesById.php:35
+#: src/StoreApi/Routes/ProductAttributesById.php:35
+#: src/StoreApi/Routes/ProductsById.php:35
+#: src/StoreApi/Schemas/ProductSchema.php:49
+#: src/StoreApi/Schemas/TermSchema.php:33
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:33
+#: src/StoreApi/Schemas/ProductReviewSchema.php:47
+msgid "Unique identifier for the resource."
+msgstr "Unik ID for ressursen."
+
+#: src/StoreApi/Schemas/ProductSchema.php:100
+msgid "Unique identifier."
+msgstr "Unik ID."
+
+#: src/BlockTypes/ProductCategories.php:201
+msgid "List of categories"
+msgstr "Oversikt over kategorier"
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:200
+msgid "Meta value."
+msgstr "Metaverdi."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:194
+msgid "Meta key."
+msgstr "Metanøkkel."
+
+#: src/StoreApi/Schemas/ProductCategorySchema.php:47
+msgid "Category image."
+msgstr "Kategoribilde."
+
+#: src/StoreApi/Schemas/ProductSchema.php:66
+msgid "Product type."
+msgstr "Produkttype"
+
+#: src/StoreApi/Schemas/ProductSchema.php:234
+msgid "Tag slug"
+msgstr "Identifikator for stikkord"
+
+#: src/StoreApi/Schemas/ProductSchema.php:228
+msgid "Tag name"
+msgstr "Navn på stikkord"
+
+#: src/StoreApi/Schemas/ProductSchema.php:222
+msgid "Tag ID"
+msgstr "Stikkord-ID"
+
+#: src/StoreApi/Schemas/ProductSchema.php:200
+msgid "Category slug"
+msgstr "Identifikator for kategori"
+
+#: src/StoreApi/Schemas/ProductSchema.php:188
+msgid "Category ID"
+msgstr "Kategori-ID"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
